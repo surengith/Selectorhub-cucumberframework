@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.StepDefinition.org.StepDefinition">
+        <methods>
+          <include name="user_select_the_audi_car_from_the_choose_a_car_drop_down"/>
+          <include name="user_click_the_try_s_hub_youtube_channel_option"/>
+          <include name="user_enter_the_in_the_user_email_field"/>
+          <include name="user_must_launch_the_url"/>
+          <include name="user_enter_the_company_name_in_the_company_field"/>
+          <include name="user_must_close_the_opened_child_windows"/>
+          <include name="user_click_the_checkout_here_button"/>
+          <include name="user_enter_the_in_the_password_field"/>
+          <include name="user_click_the_try_test_case_studio_option"/>
+          <include name="user_quit_the_browser"/>
+          <include name="user_switchto_parent_window"/>
+          <include name="user_click_the_product_menu"/>
+          <include name="user_must_take_screenshot_of_the_whole_web_page"/>
+          <include name="user_again_click_the_checkout_here_button"/>
+          <include name="user_click_the_submit_button"/>
+          <include name="user_enter_the_mobile_number_in_the_mobile_number_field"/>
+          <include name="user_click_the_practice_page_from_drop_down_option"/>
+        </methods>
+      </class> <!-- com.StepDefinition.org.StepDefinition -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
